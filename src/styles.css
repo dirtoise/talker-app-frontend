@@ -1,0 +1,29 @@
+.sidebar {
+  position:absolute;
+  left: 0%;
+  width: 3.2%;
+  transition: left 0.3s ease-in-out;
+  margin-left: 1%;
+}
+.sidebar.open {
+  left: 0;
+  width: 14%;
+}
+
+.main {
+  margin-left: -4%;
+}
+.main.open{
+  margin-left: 9%;
+}
+
+.sidebar-padding {
+  padding-bottom: 13.4rem;
+}
+
+.ptC-2 {
+  padding-bottom: 2rem;
+}
+.ptC-3 {
+  padding-bottom: 3.6rem;
+}
